@@ -10218,24 +10218,24 @@
       function create_retta_x() {
         array_image_dot_x.map((item, index) => {
           //x
-          dot_x_a = item.x;
-          dot_x_b = item.y;
-          dot_x_c = 0;
-          x.push({ dot_x_a, dot_x_b, dot_x_c });
+          dot_xy_a = item.x;
+          dot_xy_b = item.y;
+          dot_xy_c = 0;
+          x.push({ dot_xy_a, dot_xy_b, dot_xy_c });
         });
         array_image_dot_x.map((item, index) => {
           //y
-          dot_y_a = 0;
-          dot_y_b = item.x;
-          dot_y_c = item.y;
-          y.push({ dot_y_a, dot_y_b, dot_y_c });
+          dot_yz_a = 0;
+          dot_yz_b = item.x;
+          dot_yz_c = item.y;
+          y.push({ dot_yz_a, dot_yz_b, dot_yz_c });
         });
         array_image_dot_x.map((item, index) => {
           //z
-          dot_z_a = item.x;
-          dot_z_b = 0;
-          dot_z_c = item.y;
-          z.push({ dot_z_a, dot_z_b, dot_z_c });
+          dot_zx_a = item.x;
+          dot_zx_b = 0;
+          dot_zx_c = item.y;
+          z.push({ dot_zx_a, dot_zx_b, dot_zx_c });
         });
         console.log(x);
         console.log(y);
